@@ -1,9 +1,12 @@
 #include "main.h"
-/* a function that draws a diagonal line on the terminal.
- * Where n is the number of times the character \ should be printed
- * The diagonal should end with a \n
- * If n is 0 or less, the function should only print a \n
- */
+
+/**
+ * print_diagonal - print a diagonal line
+ *
+ * @n: is the number of times the \ character
+ *     should be printed
+*/
+
 
 void print_diagonal(int n)
 {
