@@ -5,12 +5,12 @@
 *@n: is the integer to be printed.
 */
 
-void printnumber(int n)
+void print_number(int n)
 {
 
 	if (n < 0)
 	{
-		putchar('-');
+		_putchar('-');
 		n = -n;
 	}
 	if (n == 0)
