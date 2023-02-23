@@ -1,4 +1,3 @@
-#include "main.h"
 /*this function is to check
  * if number is in uppercase
  * or not
