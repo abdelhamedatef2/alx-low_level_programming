@@ -1,7 +1,9 @@
-/*this function is to check
+/**
+ *this function is to check
  * if number is in uppercase
  * or not
  */
+
 int _isupper(int c)
 {
 	if (c >= 65 && c <= 90)
