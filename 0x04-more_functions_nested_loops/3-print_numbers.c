@@ -1,12 +1,17 @@
 #include "main."
-/* a function that prints the numbers,
-* from 0 to 9, followed by a new line.
+
+/**
+ * print_numbers - print 0 - 9
+ *             only using _putchar twice
+ *
+ * Return: Always 0 (Success)
 */
+ 
 void print_numbers(void)
 {
 	int i = 0;
 
 	for (i ; i < 10 ; i++)
-		_putchar((i % 10) + '0');
+		_putchar((i + 48);
 		_putchar('\n');
 }
