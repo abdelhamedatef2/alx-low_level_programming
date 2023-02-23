@@ -1,9 +1,12 @@
 #include "main.h"
-/* a function that multiplies two integers
- * a is the firest number
- * b is the second number
- * return  a*b
- */
+/**
+ * mul - multiplies two integers
+ *
+ * @a: first input
+ * @b: second input
+ *
+ * Return: return results
+*/
 int mul(int a, int b)
 {
 	return (a * b);
