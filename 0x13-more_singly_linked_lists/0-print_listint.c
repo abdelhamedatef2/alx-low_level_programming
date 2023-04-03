@@ -2,21 +2,21 @@ include "lists.h"
 
 /**
  * print_listint - print all list elements
- * @p: pointer refers to firt element
+ * @h: pointer refers to firt element
  * return: number of nodes
  */
 
-size_t print_listint(const listint_t *p)
+size_t print_listint(const listint_t *h)
 {
 	size_t counter = 0;
 
-	while (p != NULL)
+	while (h != NULL)
 	{
-		if (p->n == '\0')
+		if (h->n == '\0')
 			printf("[0] (nil)\n");
 		else
-			printf("%d\n", p->n);
-		p = p->next;
+			printf("%d\n", h->n);
+		h = h->next;
 		counter++;
 	}
 	return (counter);
