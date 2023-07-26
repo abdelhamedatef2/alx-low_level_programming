@@ -9,8 +9,6 @@
 
 >Learning C right now, been wanting to get on this. It's going to be FUN !!.
 
->If you need any **help**. Please do not hesitate to get in touch with me in our <a href="https://discord.gg/vTvkDgsS6J">Discord Server</a>.
-
 
 ----
 
@@ -21,77 +19,73 @@
 ----
 
 
-## Content table
+# alx_level_programming
 
-- [0x00](./0x00-hello_world) : Hello, World.
-- [0x01](./0x01-variables_if_else_while) : Variables,if,else,while.
-- [0x02](./0x02-functions_nested_loops) : Functions, nested loops.
-- [0x03](./0x03-debugging) : Debugging.
-- [0x04](./0x04-more_functions_nested_loops) : More Functions and nested loops.
-- [0x05](./0x05-pointers_arrays_strings) : Pointers, arrays and strings.
-- [0x06](./0x06-pointers_arrays_strings) : More pointers, arrays and strings.
-- [0x07](./0x07-pointers_arrays_strings) : Even more pointers, arrays and strings.
-- [0x08](./0x08-recursion) : Recursion.
-- [0x09](./0x09-static_libraries) : Static libraries.
-- [0x0A](./0x0A-argc_argv) : argc, argv[].
-- [0x0B](./0x0B-malloc_free) : Malloc, free.
-- [0x0C](./0x0C-more_malloc_free) : More malloc, free.
-- [0x0D](./0x0D-preprocessor) : Preprocessor.
-- [0x0E](./0x0E-structures_typedef) : Structures, typedef.
-- [0x0F](./0x0F-function_pointers) : Function pointers.
-- [0x10](./0x10-variadic_functions) : Variadic functions.
-- [0x11](https://github.com/iAmG-r00t/printf) : Write our own printf project.
-- [0x12](./0x12-singly_linked_lists) : Singly linked lists.
-- [0x13](./0x13-more_singly_linked_lists) : More singly linked lists.
-- [0x14](./0x14-bit_manipulation) : Bit manipulation.
-- [0x15](./0x15-file_io) : File I/O.
-- [0x1C](./0x1C-makefiles) : Makefiles.
-- [0x1D](https://github.com/iAmG-r00t/binary_trees) : Binary trees.
-- [0x1E](./0x1E-search_algorithms) : Search Algorithms.
+## Low Level
 
-----
-
-## C Program Compilation
-
-<p align="center">
-  <img src="https://i.postimg.cc/rprHShJ1/C-compilation-process.gif" />
-</p>
-
-The compilation process has four different steps:
-1. The preprocessing stage
-2. The compiling stage
-3. The assembling stage
-4. The linking stage
-    
-### Step 1: Preprocessing `-E`
-The preprocessor reads the source code and performs various transformations to it:
-- Expanding macros (replacing all of the macros with their values)
-- Handling include files (replaces the #include macro with the content of the header file specified in <>)
-- Removing comments
-- The results in a new file called a translation unit stored in a file with `.i` extension (intermediate)
-    
-### Step 2: Compiling `-S`
-The build phase provides us with assembly code that is unique to the target architecture.
-
-In this step the compiler takes action by taking a preprocessed file which checks for syntax or structure errors (in case of errors the compilation process stops and displays the corresponding errors). After compiling it, it generates an intermediate code in assembly language `file.s`.
-
-### Step 3: Assembing `-c`
-In the third stage of compilation, an assembler is used to convert assembly language into machine code. The assembler takes the code and generates an object file `file.o`, which contains machine code that is not yet executable because it needs to be mapped to a specific memory address. The linker combines all the object files, resolves references between modules, and corrects the addresses, creating an executable file.
-
-### Step 4: Linking
-The linker is an important tool in compilation that performs two tasks: resolution and relocation of symbols. It arranges the pieces of object code so that functions in one piece can successfully call functions in others. The linker also adds parts that contain the instructions for the library functions used by the program. The result of this stage is the executable file. usually `a.out` if `-o` is not specified.
+* C programming language
+* Graphic programming
+* Unix programming
+* Data structures & algorithms
+* Reverse engineering & security
 
 ---
 
-## Resource
+[0x00-hello_world](./0x00-hello_world)
 
-- C [Books and PDF's](./references) to check out and use as a reference.
-- [Pointers and Arrays](./PointerArrays) : Code snippets and notes on Pointers and Arrays from Concept Page.
-- [Data Structures](./DataStructures) : Code snippets and notes on data structures.
-- [Dynamic Memory Allocation](./dynamic_memory_alloc) : Code snippets and notes on how dynamic memory allocation works with `malloc` and `free`.
-- [Heap vs Stack](./heap_stack) : Code snippets and notes on what is a heap, a stack and how they work.
-- [Simple Shell Concepts](./simple_shell_concepts) : Code snippets and notes on the concept for the simple shell project.
+[0x01-variables_if_else_while](0x01-variables_if_else_while)
 
+[0x02-functions_nested_loops](./0x02-functions_nested_loops)
+
+[0x03-more_functions_nested_loops](./0x03-more_functions_nested_loops)
+
+[0x04-pointers_arrays_strings](./0x04-pointers_arrays_strings)
+
+[0x05-pointers_arrays_strings](./0x05-pointers_arrays_strings)
+
+[0x06-pointers_arrays_strings](./0x06-pointers_arrays_strings)
+
+[0x07-recursion](./0x07-recursion)
+
+[0x08-static_libraries](./0x08-static_libraries)
+
+[0x09-argc_argv](./0x09-argc_argv)
+
+[0x0A-malloc_free](./0x0A-malloc_free)
+
+[0x0B-more_malloc_free](./0x0B-more_malloc_free)
+
+[0x0C-preprocessor](./0x0C-preprocessor)
+
+[0x0D-structures_typedef](./0x0D-structures_typedef)
+
+[0x0E-function_pointers](./0x0E-function_pointers)
+
+[0x0F-variadic_functions](./0x0F-variadic_functions)
+
+[0x11-singly_linked_lists](./0x11-singly_linked_lists)
+
+[0x12-more_singly_linked_lists](./0x12-more_singly_linked_lists)
+
+[0x13-bit_manipulation](./0x13-bit_manipulation)
+
+[0x14-file_io](./0x14-file_io)
+
+[0x16-doubly_linked_lists](./0x16-doubly_linked_lists)
+
+[0x17-dynamic_libraries](./0x17-dynamic_libraries)
+
+[0x18-stacks_queues_lifo_fifo](https://github.com/tassavarat/monty/tree/a969cfdb53123be3ac5162952b69b7d534da0675)
+
+[0x19-hash_tables](./0x19-hash_tables)
+
+[0x1B-sorting_algorithms](./0x1B-sorting_algorithms)
+
+[0x1C-makefiles](./0x1C-makefiles)
+
+[0x1D-binary_trees](./0x1D-binary_trees)
+
+[0x1E-search_algorithms](./0x1E-search_algorithms)
 ---
 
 ## Author
